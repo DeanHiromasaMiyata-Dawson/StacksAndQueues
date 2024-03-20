@@ -22,7 +22,7 @@ import org.junit.Test;
  * @author CS 1332 TAs
  * @version 1.0
  */
-public class QueueStudentTest {
+public class QueueTest {
 
     private static final int TIMEOUT = 200;
     private ArrayQueue<String> array;
