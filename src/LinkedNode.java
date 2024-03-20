@@ -1,10 +1,5 @@
 /**
- * Node class used for implementing your linked data structures.
- *
- * DO NOT MODIFY THIS FILE!!
- *
- * @author CS 1332 TAs
- * @version 1.0
+ * Node class used for implementing linked data structures.
  */
 public class LinkedNode<T> {
 
@@ -57,7 +52,6 @@ public class LinkedNode<T> {
     void setNext(LinkedNode<T> next) {
         this.next = next;
     }
-
 
     @Override
     public String toString() {
