@@ -1,14 +1,5 @@
 /**
- * Your implementation of an ArrayQueue.
- *
- * @author Dean Hiromasa Miyata-Dawson
- * @version 1.0
- * @userid ddawson42
- * @GTID 903833148
- *
- * Collaborators: LIST ALL COLLABORATORS YOU WORKED WITH HERE
- *
- * Resources: LIST ALL NON-COURSE RESOURCES YOU CONSULTED HERE
+ * Implementation of an ArrayQueue.
  */
 
 import java.util.NoSuchElementException;
