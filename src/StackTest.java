@@ -10,7 +10,7 @@ import org.junit.Test;
 /**
  * JUnit tests for ArrayStack and LinkedStack.
  */
-public class StackStudentTest {
+public class StackTest {
 
     private static final int TIMEOUT = 200;
     private ArrayStack<String> array;
