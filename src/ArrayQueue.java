@@ -25,8 +25,7 @@ public class ArrayQueue<T> {
 
     /**
      * Adds the data to the back of the queue.
-     *
-     * If sufficient space is not available in the backing array, resize it to
+     *If sufficient space is not available in the backing array, resize it to
      * double the current length. When resizing, copy elements to the
      * beginning of the new array and reset front to 0.
      *
@@ -53,12 +52,10 @@ public class ArrayQueue<T> {
 
     /**
      * Removes and returns the data from the front of the queue without shrinking backingArray.
-     *
      * Replace any spots that are dequeued from with null.
-     *
      * If the queue becomes empty as a result of this call, do not reset front to 0.
      *
-     * Must be O(1).
+     * O(1).
      *
      * @return the data formerly located at the front of the queue
      * @throws java.util.NoSuchElementException if the queue is empty
